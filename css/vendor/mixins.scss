@@ -67,7 +67,7 @@
 
 @mixin ib {
   display: inline-block;
-  .ie7-inline-block();
+  @include ie7-inline-block();
 }
 
 

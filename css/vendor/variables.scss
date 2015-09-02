@@ -18,7 +18,7 @@ $font-family-aditional:	"Helvetica Neue", Helvetica, Arial, sans-serif;
 // *
 // * Font's formats you need to use: EOT, WOFF, TTF and SVG.
 // **/
-
+/*
 @mixin font-face($name, $filename, $path, $weight:normal, $style:normal) {
   $font-face {
     font-family: $name;
@@ -30,7 +30,7 @@ $font-family-aditional:	"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: $style;
   }
 }
-
+*/
 $baseFontSize: 10px;
 
 $s-XXXL:	3.9rem;		/*39*/
