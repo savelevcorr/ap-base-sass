@@ -1,0 +1,27 @@
+{
+  "name": "ap-scss-base",
+  "homepage": "https://github.com/savelevcorr/3dots-base-sass",
+  "authors": [
+    "Andrey Savelev <savelevcorr@gmail.com>"
+  ],
+  "description": "simple scss framework",
+  "main": "style.scss",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "scss",
+    "framework",
+    "arsenalpay",
+    "develop"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
