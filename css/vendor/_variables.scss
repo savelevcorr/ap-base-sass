@@ -1,0 +1,171 @@
+/* Typography */
+
+$font-family-base:  	"NotoSerifRegular", Helvetica, Arial, sans-serif;
+$font-family-aditional:	"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+///**
+// * Font-face
+// *
+// * Easily include fonts on you website.
+// *
+// * @USAGE
+// * Put the .font-face() mixin in your CSS. Provide at least two arguments:
+// * -- font's name (string),
+// * -- font's filename (without filetype),
+// * -- font's path / URL (string) [don't forget to put the fonts in all formats in the folder].
+// *
+// * Optionally you can provide the font's weight and style. By default they're normal.
+// *
+// * Font's formats you need to use: EOT, WOFF, TTF and SVG.
+// **/
+/*
+@mixin font-face($name, $filename, $path, $weight:normal, $style:normal) {
+  $font-face {
+    font-family: $name;
+    src: url($path + $filename + '.eot');
+    src: local('?'), url($path + $filename + '.woff') format('woff'),
+    url($path + $filename + '.ttf') format('truetype'),
+    url($path + $filename + '.svg') format('svg');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+*/
+$baseFontSize: 10px;
+
+$s-XXXL:	3.9rem;		/*39*/
+$s-XXL:		2.7rem;		/*27*/
+$s-XL:		2.5rem;		/*25*/
+$s-L:		1.9rem;		/*19*/
+$s-M:		1.7rem;		/*17*/
+$s-N:		1.5rem;		/*15*/
+$s-S:		1.3rem;		/*13*/
+$s-XS:		1.1rem;		/*11*/
+$s-XXS:		1rem;		/*10*/
+
+$line-height-base:        1.428571429;
+
+@mixin f-XXXL{
+  font-size: $s-XXXL;
+  line-height: floor(($s-XXXL*$line-height-base));
+}
+
+@mixin f-XXL{
+  font-size: $s-XXL;
+  line-height: floor(($s-XXL*$line-height-base));
+}
+
+@mixin f-XL{
+  font-size: $s-XL;
+  line-height: floor(($s-XL*$line-height-base));
+}
+
+@mixin f-L{
+  font-size: $s-L;
+  line-height: floor(($s-L*$line-height-base));
+}
+
+@mixin f-M{
+  font-size: $s-M;
+  line-height: floor(($s-M*$line-height-base));
+}
+
+@mixin f-N{
+  font-size: $s-N;
+  line-height: floor(($s-N*$line-height-base));
+}
+
+@mixin f-S{
+  font-size: $s-S;
+  line-height: floor(($s-S*$line-height-base));
+}
+
+@mixin f-XS{
+  font-size: $s-XS;
+  line-height: floor(($s-XS*$line-height-base));
+}
+
+@mixin f-XXS{
+  font-size: $s-XXS;
+  line-height: floor(($s-XXS*$line-height-base));
+}
+
+/* text transformations for individual cases */
+@mixin f-i {
+  font-style: italic
+}
+
+@mixin f-b {
+  font-weight: bold
+}
+
+@mixin f-UC {
+  text-transform: uppercase
+}
+
+@mixin f-lc {
+  text-transform: lowercase
+}
+
+@mixin f-Cp {
+  text-transform: capitalize
+}
+
+@mixin t-C {
+  text-align: center
+}
+
+@mixin t-R {
+  text-align: right
+}
+
+@mixin t-L {
+  text-align: left
+}
+
+@mixin t-J {
+  text-align: justify;
+  word-spacing: -0.08em
+}
+
+@mixin nobr {
+  white-space: nowrap
+}
+
+
+/* Colours */
+
+$gray-base:             #000;
+$gray-darker:           lighten($gray-base, 13.5%); // #222
+$gray-dark:             lighten($gray-base, 20%);   // #333
+$gray:                  lighten($gray-base, 33.5%); // #555
+$gray-light:            lighten($gray-base, 46.7%); // #777
+$gray-lighter:          lighten($gray-base, 93.5%); // #eee
+
+$red:					red;
+
+$brand-colour:			#ffe58e;
+$content-color:			#00441d;
+$brand-sec-colour:		#81a08f;
+$brand-primary:         darken(#428bca, 6.5%); // #337ab7
+$brand-success:         #5cb85c;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #fff;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark;
+
+//** Global textual link color.
+$link-color:            $brand-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%);
+//** Link hover decoration.
+$link-hover-decoration: underline;
