@@ -5,7 +5,7 @@
     "Andrey Savelev <savelevcorr@gmail.com>"
   ],
   "description": "simple scss framework",
-  "main": "style.scss",
+  "main": "css/style.scss",
   "moduleType": [
     "amd"
   ],
@@ -16,7 +16,7 @@
     "develop"
   ],
   "license": "MIT",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
