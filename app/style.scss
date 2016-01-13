@@ -8,20 +8,21 @@
 
 
 
+
 /*************************************************
 *    Normalize Base
 **************************************************/
-@import "vendor/libs/normalize";
+@import "/bower_components/normalize.sass/normalize";
 
 /*************************************************
 *    Bourbon
 **************************************************/
-@import "vendor/libs/bourbon";
+@import "/bower_components/bourbon/app/assets/stylesheets/bourbon";
 
 /*************************************************
 *    Neat
 **************************************************/
-@import "vendor/libs/neat/app/assets/stylesheets/neat";
+@import "/bower_components/neat/app/assets/stylesheets/neat";
 
 /*************************************************
 *    Custom mixins
