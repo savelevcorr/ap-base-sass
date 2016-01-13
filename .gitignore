@@ -90,4 +90,4 @@ crashlytics.properties
 crashlytics-build.properties
 
 # bower
-bower_components/
+css/vendor/libs/
