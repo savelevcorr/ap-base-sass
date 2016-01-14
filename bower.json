@@ -27,6 +27,7 @@
   "dependencies": {
     "normalize.sass": "~3.0.0",
     "bourbon": "~4.2.6",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "animate-sass": "~0.6.4"
   }
 }
