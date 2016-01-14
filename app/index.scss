@@ -12,17 +12,17 @@
 /*************************************************
 *    Normalize Base
 **************************************************/
-@import "/bower_components/normalize.sass/normalize";
+@import "../../normalize.sass/normalize";
 
 /*************************************************
 *    Bourbon
 **************************************************/
-@import "/bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../../bourbon/app/assets/stylesheets/bourbon";
 
 /*************************************************
 *    Neat
 **************************************************/
-@import "/bower_components/neat/app/assets/stylesheets/neat";
+@import "../../neat/app/assets/stylesheets/neat";
 
 /*************************************************
 *    Custom mixins
